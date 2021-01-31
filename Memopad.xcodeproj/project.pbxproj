@@ -15,6 +15,7 @@
 		04E3559E25C70C6E00E8DC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3559C25C70C6E00E8DC77 /* LaunchScreen.storyboard */; };
 		04E355A925C70C6F00E8DC77 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E355A825C70C6F00E8DC77 /* MemopadTests.swift */; };
 		04E355B425C70C6F00E8DC77 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E355B325C70C6F00E8DC77 /* MemopadUITests.swift */; };
+		04E355C525C70DA400E8DC77 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E355C425C70DA400E8DC77 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04E355AF25C70C6F00E8DC77 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E355B325C70C6F00E8DC77 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		04E355B525C70C6F00E8DC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E355C425C70DA400E8DC77 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				04E3559A25C70C6E00E8DC77 /* Assets.xcassets */,
 				04E3559C25C70C6E00E8DC77 /* LaunchScreen.storyboard */,
 				04E3559F25C70C6E00E8DC77 /* Info.plist */,
+				04E355C425C70DA400E8DC77 /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E355C525C70DA400E8DC77 /* MemoViewController.swift in Sources */,
 				04E3559625C70C6C00E8DC77 /* ViewController.swift in Sources */,
 				04E3559225C70C6C00E8DC77 /* AppDelegate.swift in Sources */,
 				04E3559425C70C6C00E8DC77 /* SceneDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6A2SZA9Y;
 				INFOPLIST_FILE = Memopad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J6A2SZA9Y;
 				INFOPLIST_FILE = Memopad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
